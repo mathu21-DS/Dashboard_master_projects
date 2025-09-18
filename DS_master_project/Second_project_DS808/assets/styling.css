@@ -1,0 +1,68 @@
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: none;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1;
+}
+
+.slider > * > .rc-slider-handle, .rc-slider-dot, .rc-slider-track {
+	background-color:#1f2222;
+}
+
+.slider > * > .rc-slider-dot, .rc-slider-dot-active, .rc-slider-handle {
+	border: 1px solid #1f2222;
+}
+
+.payGapGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: flex-end;
+  padding: 20px;
+ }
+
+.payGapGridItem {
+  display: grid;
+  justify-content: center;
+}
+
+#chose_sector label:nth-child(2) {
+  color: red;
+  flex: 1;
+}
+
+#chose_sector label:nth-child(3) {
+  color: blue;
+  flex: 2;
+}
+
+#chose_sector > div {
+  display: flex;
+}
+
+#chose_gender label:nth-child(1) {
+  color: rgba(178,0,147,1);
+  flex: 1;
+}
+
+#chose_gender label:nth-child(2) {
+  color: rgba(1,175,175,1);
+  flex: 2;
+}
+
+#chose_gender > div {
+  display: flex;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  }
+
