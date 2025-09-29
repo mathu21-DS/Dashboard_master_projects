@@ -27,8 +27,23 @@ They allow rapid development of interactive dashboards, integration with externa
 ## Why this process?
 This structured approach ensured data quality, reproducibility, and that the final dashboard provided clear answers to the research question.
 
+## 4. Dashboards Overview
+**Dashboard 1: The Guardian News Analysis (First_project_DS831)**
+- **Purpose**: Visualizes news article content from The Guardian.
+- **Features**: Word clouds, tag-based filtering, article frequency over time, and article similarity.
+- **How to Run**:
+  1. Navigate to the folder.
+  2. Install requirements:
+     >> pip install -r requirements.txt 
+  4. Run the dashboard Python file (e.g., dash-with-two-wordclouds.py).
+
+
+## How to Run
+Before running the Python files, install the required packages in the cmd:
+- pip install -r requirements.txt 
+
 # 4. Results / Dashboard Purpose
+- Dashboard 1: Visualizes content from The Guardian.
+- Dashboard 2: Visualizes Gender Pay Gap data in Denmark.
+- Both dashboards allow users to explore trends, compare categories, and generate insights in real time.
 
-- Created interactive dashboards that visualize content from a the website The Guardian and the other from Gender pay gab in Denmark.
-
-- Allowed users to explore trends, compare categories, and generate insights in real time.
