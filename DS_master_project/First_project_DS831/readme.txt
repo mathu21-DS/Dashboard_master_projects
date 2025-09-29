@@ -19,10 +19,11 @@ text_g:
 The code builds a dictionary from the scraped articles.
 This document will be imported to the dash/plotly document.
 
-dash_guardian:
+dash_guardian-two-wordcloud:
 This program builds a user-interface to interact with the data. 
 The document "text_g" is called and must be in the same folder.
 
 Articles_Denmark.csv:
 This csv-file contains a scrape of 1000 articles with the tag 'Denmark'. It is ready for use by the Dash/Plotly program.
+
 We recommend renaming the file or placing it in a different folder before doing another scrape for articles with the same tag.
