@@ -34,16 +34,30 @@ This structured approach ensured data quality, reproducibility, and that the fin
 - **How to Run**:
   1. Navigate to the folder.
   2. Install requirements:
-     >> pip install -r requirements.txt 
-  4. Run the dashboard Python file (e.g., dash-with-two-wordclouds.py).
+     > pip install -r requirements.txt 
+  3. Run the dashboard Python file (e.g., dash-with-two-wordclouds.py).
 
+**Dashboard 2: Gender Pay Gap in Denmark (Second_project_DS808)**
+- **Purpose**: Visualizes gender pay gap data across sectors in Denmark.
+- **Features**: Interactive charts, sector/category comparisons, time sliders, and detailed breakdowns.
+- **How to Run**:
+  1. Navigate to the folder.
+  2. Install requirements:
+     > pip install -r requirements.txt 
+  3. Run the dashboard Python file (e.g., visualization.v14.py).
 
 ## How to Run
 Before running the Python files, install the required packages in the cmd:
 - pip install -r requirements.txt 
 
 # 4. Results / Dashboard Purpose
-- Dashboard 1: Visualizes content from The Guardian.
-- Dashboard 2: Visualizes Gender Pay Gap data in Denmark.
+- Dashboard 1: Explore news trends, tag relationships, and article content.
+- Dashboard 2: Analyze gender pay gap trends, compare sectors, and generate insights.
+
+Both dashboards allow users to explore trends, compare categories, and generate insights in real time.
+
+
+
+
 - Both dashboards allow users to explore trends, compare categories, and generate insights in real time.
 
