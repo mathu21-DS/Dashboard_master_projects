@@ -46,10 +46,6 @@ This structured approach ensured data quality, reproducibility, and that the fin
      > pip install -r requirements.txt 
   3. Run the dashboard Python file (e.g., visualization.v14.py).
 
-## How to Run
-Before running the Python files, install the required packages in the cmd:
-- pip install -r requirements.txt 
-
 # 4. Results / Dashboard Purpose
 - Dashboard 1: Explore news trends, tag relationships, and article content.
 - Dashboard 2: Analyze gender pay gap trends, compare sectors, and generate insights.
