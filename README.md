@@ -51,9 +51,3 @@ This structured approach ensured data quality, reproducibility, and that the fin
 - Dashboard 2: Analyze gender pay gap trends, compare sectors, and generate insights.
 
 Both dashboards allow users to explore trends, compare categories, and generate insights in real time.
-
-
-
-
-- Both dashboards allow users to explore trends, compare categories, and generate insights in real time.
-
