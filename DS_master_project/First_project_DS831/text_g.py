@@ -7,10 +7,10 @@ Created on Tue Dec 21 22:08:42 2021
 import pandas as pd
 
 #get the csv file
-text1 = pd.read_csv('Articles_Denmark.csv')
-text2=pd.read_csv('Articles_Denmark.csv',usecols=[1,3])
+text1 = pd.read_csv('First_project_DS831/Articles_Denmark.csv')
+text2=pd.read_csv('First_project_DS831/Articles_Denmark.csv',usecols=[1,3])
 
-text3=pd.read_csv('Articles_Denmark.csv',usecols=[1])
+text3=pd.read_csv('First_project_DS831/Articles_Denmark.csv',usecols=[1])
 
 
 #add in each articles title into a list
@@ -70,3 +70,4 @@ for d in tags_articles:
             key_values[k].append(v)                                             #then it append all the article name to that key
         else:    
             key_values[k]=[v]                                                   #if it do not match in if then nothing happends
+
