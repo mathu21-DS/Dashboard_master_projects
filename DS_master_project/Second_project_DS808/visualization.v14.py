@@ -44,12 +44,6 @@ app = dash.Dash()
 
 # Loading data
 
-#df_30 = pd.read_csv("data2/Equality_30.csv")
-#df1_30 = pd.read_csv("data2/Difference in equality_30.csv")
-
-#df = pd.read_csv("data2/Equality_40.csv")
-#df1 = pd.read_csv("data2/Difference in equality_40.csv")
-
 df_30 = pd.read_csv("Second_project_DS808/data2/Equality_30.csv")
 df1_30 = pd.read_csv("Second_project_DS808/data2/Difference in equality_30.csv")
 
@@ -1915,4 +1909,5 @@ def overtime_data(years_chosen, wage, industrie, user_salary):
     return fig_output
 
 if __name__ == '__main__':
+
     app.run(debug=False, port=8082)
